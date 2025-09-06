@@ -36,6 +36,12 @@ public class Form extends javax.swing.JPanel {
         lblPassword = new javax.swing.JLabel();
         inpPassword = new javax.swing.JPasswordField();
 
+        inpUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                inpUsuarioActionPerformed(evt);
+            }
+        });
+
         btnRegistrar.setText("Registrar");
         btnRegistrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,6 +127,10 @@ public class Form extends javax.swing.JPanel {
     private void inpPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inpPasswordActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_inpPasswordActionPerformed
+
+    private void inpUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inpUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_inpUsuarioActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
